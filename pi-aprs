@@ -51,7 +51,7 @@ yad --form --width=400 --image $HOME/Pi-APRS/ISS.png --window-icon=$HOME/Pi-APRS
 --field="Send Position":fbtn "bash -c 'source $MYPATH/functions; SENDPOS'" \
 --field="Start Modems":fbtn "bash -c 'source $MYPATH/functions; STARTMODEM'" \
 --field="Settings":fbtn "bash -c 'source $MYPATH/functions; MYCONFIG'" \
---field="Your Call $MYCALL":LBL \
+--field="Your Call $MYCALL-$SSID":LBL \
 --button=gtk-quit:1
 
 QUIT=$?
