@@ -179,7 +179,7 @@ echo "" >> $TEMPFILE
 echo "" >> $TEMPFILE
 echo "MYCALL=$MYCALL" >> $TEMPFILE
 echo "SSID=$SSID" >> $TEMPFILE
-echo "CITY=$CITY" >> $TEMPFILE
+echo "CITY=\"$CITY\"" >> $TEMPFILE
 echo "STATE=$STATE" >> $TEMPFILE
 echo "GRID="$GRID >> $TEMPFILE
 echo "HEARDYOU=\"$HEARDYOU\"" >> $TEMPFILE
